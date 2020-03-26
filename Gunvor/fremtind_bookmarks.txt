@@ -1,0 +1,24 @@
+Bekk:
+-----
+https://outlook.office365.com/calendar/view/workweek
+https://timekeeper.bekk.no/1328/2020-03-23
+
+Fremtind:
+---------
+https://webmail2.sparebank1.no/owa/#path=/mail
+https://actitime.intern.sparebank1.no/actitime/user/submit_tt.do?submitted=
+
+Verktøy:
+--------
+https://confluence.intern.sparebank1.no/pages/viewpage.action?pageId=901023664
+https://confluence.intern.sparebank1.no/display/RHCLIENT/VPN
+http://fatuhiva.test.sparebank1.no/login/startside
+https://humio.intern.sparebank1.no/
+https://jenkins02.prod-int.sparebank1.no/job/BM_Forsikring/
+https://jira.intern.sparebank1.no/secure/RapidBoard.jspa?projectKey=FBM&rapidView=1599
+https://stash.intern.sparebank1.no/projects/BDL
+https://trello.com/b/3ePyPGdq/fremtind-bm-prosess
+
+TEAMS: 
+------
+teamsrpm="teams-1.3.00.958-1.x86_64.rpm" && wget https://packages.microsoft.com/yumrepos/ms-teams/$teamsrpm && sudo yum -y install $teamsrpm; rm $teamsrpm

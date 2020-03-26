@@ -1,0 +1,13 @@
+alias ll="ls -lh"
+alias java8="ln -sfn /etc/alternatives/java_sdk_1.8.0 ~/opt/jdk && java -version"
+alias java11="ln -sfn /etc/alternatives/java_sdk_11 ~/opt/jdk && java -version"
+alias vpn="globalprotect"
+alias fremtind="-p golf.sparebank1.no"
+alias backend="cd ~/git/forsikring-bm-web/forsikring-bm-web-backend"
+alias frontend="cd ~/git/forsikring-bm-web/forsikring-bm-web-frontend"
+alias mci="mvn clean install"
+alias cdmci="backend && mci; cd -"
+alias cdyarn="frontend && yarn; cd -"
+alias mciyarn="cdmci && cdyarn"
+alias aliases="grep 'alias ' ~/.zshrc | grep 'grep' -v | cut -d ' ' -f 2-"
+
